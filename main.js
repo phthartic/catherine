@@ -8,7 +8,7 @@ while (true) {
     if(n == null) {
         main.style.display = "none";
         cancel.style.display = "flex";
-        msg.innerHTML = "Tayaw mo edi 'wag";
+        msg.innerHTML = "ayaw mo edi 'wag";
     }
 
     if (n.length > 0) {
