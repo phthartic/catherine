@@ -12,7 +12,7 @@ while (true) {
     }
 
     if (n.length > 0) {
-        alert("happy birthday catherine!");
+        alert("happy birthday " + n + "!");
         alert('sana maging masaya ka today');
         alert('salamat sa lahat ' + n + '!');
         main.style.display = 'block';
