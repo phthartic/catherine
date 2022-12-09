@@ -10,6 +10,17 @@
     background: url('bg.gif') no-repeat center;
 }
 
+html, body {
+  height: 100%;
+  margin:0px;
+  padding: 0px;
+}
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background: #111111;
+}
+
 .cover {
     display: flex;
     align-items: center;
