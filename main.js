@@ -100,18 +100,18 @@ const cancel = document.querySelector('.cancel');
 const msg = document.querySelector('#msg');
 
 while (true) {
-    let n = prompt("Enter your name");
+    let n = prompt("Crush mo ba ako?");
     
     if(n == null) {
         main.style.display = "none";
         cancel.style.display = "flex";
-        msg.innerHTML = "ayaw mo edi 'wag";
+        msg.innerHTML = "ayaw pa ako na 'to haha";
     }
 
     if (n.length > 0) {
-        alert("happy birthday " + n + "!");
-        alert('sana maging masaya ka today');
-        alert('salamat sa lahat ' + n + '!');
+        alert('nugagawen jk');
+        alert("alam ko naman");
+        alert('tara na pakasal');
         main.style.display = 'block';
         break;
     }
